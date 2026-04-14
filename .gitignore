@@ -1,0 +1,17 @@
+# Ignorar ambiente virtual
+venv/
+env/
+
+# Ignorar dados
+data/raw/
+data/processed/
+*.csv
+*.db
+*.sqlite
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Ignorar modelos salvos grandes
+*.pkl
