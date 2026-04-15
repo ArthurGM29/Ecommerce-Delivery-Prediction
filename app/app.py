@@ -37,7 +37,7 @@ with col2:
 st.markdown("---")
 
 # Botão de Ação
-if st.button('Prever Risco de Atraso 🚀', use_container_width=True):
+if st.button('Prever Risco de Atraso', use_container_width=True):
     
     # Criando o dataframe invisível com a mesma ordem que o modelo aprendeu
     input_data = pd.DataFrame([[preco, frete, peso, tempo_estimado, mes, dia_semana, is_same_state_val]], 
